@@ -1,4 +1,9 @@
 /**
+ * Author: Ashraf Morningstar
+ * GitHub: https://github.com/AshrafMorningstar
+ */
+
+/**
  * Product Data
  */
 const products = [
@@ -45,3 +50,4 @@ const products = [
     desc: "High fidelity sound for your smart home."
   }
 ];
+
