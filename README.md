@@ -57,15 +57,26 @@ This monorepo contains 12 independent, high-quality web applications. Each proje
 
 ## 🛠️ Installation
 
+### Option 1: Standard (Node.js)
+
 ```bash
 # Clone the repository
-git clone https://github.com/AshrafMorningstar/WebDevRoadmap-Portfolio.git
+git clone https://github.com/AshrafMorningstar/WebDevRoadmap.git
 
 # Navigate to the project directory
-cd WebDevRoadmap-Portfolio
+cd WebDevRoadmap
 
 # Serve locally
 npx serve .
+```
+
+### Option 2: Docker (Isolate & Deploy Anywhere)
+
+```bash
+# Run with Docker Compose
+docker-compose up -d
+
+# Visit http://localhost:8080
 ```
 
 ## 🤝 Contributing
