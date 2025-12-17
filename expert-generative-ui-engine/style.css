@@ -4,12 +4,12 @@
  * GitHub: https://github.com/AshrafMorningstar
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
 
 :root {
   --bg-dark: #0f172a;
   --bg-panel: #1e293b;
-  --accent: #8b5cf6; /* Violet */
+  --accent: #8b5cf6;
   --accent-glow: #8b5cf680;
   --text-main: #f8fafc;
   --text-muted: #94a3b8;
@@ -25,7 +25,7 @@ body {
   margin: 0;
   background: var(--bg-dark);
   color: var(--text-main);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   height: 100vh;
   overflow: hidden;
 }
@@ -36,7 +36,6 @@ body {
   height: 100vh;
 }
 
-/* Navbar */
 .navbar {
   height: 60px;
   background: var(--bg-panel);
@@ -48,7 +47,7 @@ body {
 }
 
 .brand {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   display: flex;
@@ -70,7 +69,6 @@ body {
   gap: 1rem;
 }
 
-/* Buttons */
 button {
   cursor: pointer;
   font-family: inherit;
@@ -102,14 +100,12 @@ button {
   color: var(--text-main);
 }
 
-/* Workspace */
 .workspace {
   flex: 1;
   display: flex;
   overflow: hidden;
 }
 
-/* Prompt Panel */
 .prompt-panel {
   width: 350px;
   background: var(--bg-dark);
@@ -120,7 +116,7 @@ button {
 }
 
 .prompt-panel h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.5rem;
   margin-top: 0;
   background: linear-gradient(to right, #fff, #94a3b8);
@@ -170,7 +166,6 @@ textarea:focus {
   box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
 }
 
-/* Suggestions */
 .suggestions p {
   color: var(--text-muted);
   font-size: 0.875rem;
@@ -198,7 +193,6 @@ textarea:focus {
   color: var(--text-main);
 }
 
-/* Preview Split */
 .preview-split {
   flex: 1;
   display: flex;
@@ -222,7 +216,7 @@ textarea:focus {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: #020617; /* Darker than dark */
+  background: #020617;
 }
 
 .canvas-wrapper {
@@ -243,7 +237,7 @@ iframe {
   border: none;
   border-radius: 12px;
   transition: all 0.3s;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
 .code-container {
@@ -255,7 +249,7 @@ iframe {
 
 .CodeMirror {
   flex: 1;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   font-size: 14px;
 }
 
@@ -266,8 +260,9 @@ iframe {
   padding: 4px 8px;
 }
 
-.icon-btn:hover, .icon-btn.active {
+.icon-btn:hover,
+.icon-btn.active {
   color: var(--text-main);
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
 }
